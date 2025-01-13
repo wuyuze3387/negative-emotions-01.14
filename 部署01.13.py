@@ -88,7 +88,7 @@ if st.button("Predict"):
 
         # 显示预测结果
         st.subheader("Prediction Result:")
-        st.write(f"Predicted possibility of AKI is **{probability:.2f}%**")
+        st.write(f"Predicted possibility of Negative emotions is **{probability:.2f}%**")
 
         # 计算 SHAP 值并生成力图
         explainer = shap.TreeExplainer(model)
