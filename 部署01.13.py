@@ -27,9 +27,9 @@ feature_names = [
     "Intrapartum pain", "Postpartum pain"
 ]
 feature_ranges = {
-    "Resilience": {"type": "numerical", "min": 7, "max": 28, "default": 18},
-    "Family support": {"type": "numerical", "min": 1, "max": 10, "default": 5},
-    "PBT": {"type": "numerical", "min": 0, "max": 36, "default": 14},
+    "Resilience": {"type": "numerical", "min": 6, "max": 30, "default": 15},
+    "Family support": {"type": "numerical", "min": 0, "max": 10, "default": 5},
+    "PBT": {"type": "numerical", "min": 0, "max": 42, "default": 21},
     "Age": {"type": "categorical", "options": ["less than or equal to 35 years old", "greater than 35 years old"]},
     "Occupation": {"type": "categorical", "options": ["Full-time job", "Part-time job"]},
     "MOD": {"type": "categorical", "options": ["Vaginal delivery", "Cesarean section"]},
